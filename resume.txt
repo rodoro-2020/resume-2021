@@ -1,0 +1,232 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{graphicx}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.49\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Rodolfo}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Rodriguez}}}}} % Last name
+	
+	\vspace{8pt}
+	
+	{\huge Computer Science Engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.278\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{11}{Tlaquepaque Jal.}\\
+	\icon{Whatsapp}{11}{3317205055}\\
+	\icon{Linkedin}{11}{\href{https://www.linkedin.com/in/rodrodriguez2020/}{rodrodriguez2020}}\\
+
+	\end{minipage}
+\begin{minipage}[t]{0.350\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{At}{11}{\href{mailto:rod.rodriguez.2k21@gmail.com}{rod.rodriguez.2k21@gmail.com}}\\
+	\icon{Github}{11}{\href{https://github.com/rodoro-2020}{rodoro-2020 resume}}\\
+%	\icon{facebook}{12}{\href{https://www.facebook.com/Darknash.212}{Rod Rodriguez}}\\
+\end{minipage}
+
+\vspace{0.3cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.460\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	I have extensive experiencie as Windows and Linux OS sysadmin. I´m looking
+	forward to joining a team where I can develop my skills and contribute professionally to achieve the goals. I´m
+	always trying to improve my skills and knowledge so I can contribute with ideas in the best way to the company. \\ % Dummy text
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.43\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5}
+		\baritem{Windows OS}{60}
+		\baritem{Linux OS}{70}
+		\baritem{Virtualization}{70}
+		\baritem{Spectrum Scale}{40}
+		\baritem{Scripting/Test Automation}{20}
+	\end{barchart}
+\end{minipage}
+
+%\begin{center}
+\begin{entrylist}
+	%\bubbles{5/Self-taugt, 6/Teamwork, 4/Empathic, 3/Adaptability, 3/Blender}
+	\bubbles{5/Self-taught} 
+	\hspace{2mm} 
+	\bubbles{5/Teamwork} 
+	\hspace{2mm} 
+	\bubbles{4/Adaptability}
+	\hspace{2mm} 
+	\bubbles{4/Empathic} 
+	\hspace{2mm} 
+	\bubbles{4/Responsibility}
+\end{entrylist}
+		
+%\end{center}
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{Jun 2012 -- Present}
+		{Linux Test Engineer IBM Storage}
+		{Kelly Services Mexico.}
+			{{}\\$\bullet$ Linux RHEL and Windows Server OS System Administration.
+				\\$\bullet$ Elastic Storage Server (ESS)/Spectrum Scale (GPFS) Support Engineer.
+					\\$\bullet$ Basic programming in bash scripting and expect (TCL) lenguage for automation of tests for example:configurations and FW upgrades for Mellanox Switches and Linux operating system configurations.						
+				\\$\bullet$Virtualization of computing resources with Vmware vsphere, vSphare Hypervisor, vCenter Server, Qemu/KVM/RHELV Linux.
+				\\$\bullet$ On-site supports national and internacional clients for installation, configuration and consulting Security Network/hardening Windows/Linux RHEL Server for example:
+				Bradesco Bank of brasil, ADO de Oriente, Corporativo The Home Depot Mexico, Grupo GEPP, Toshiba, Grupo modelo, Lenovo, Manpower,
+				etc.
+				\\$\bullet$ Basic use of containerization tools (Podman and Docker).			
+				\\$\bullet$ GIT and Jenkis basic knowledge.
+				\\$\bullet$ Installation and Configuration IBM Power Systems (Power 7 and 8, HMC)\\$\bullet$ Configuration of Storage Systems DS3000 Family,V7000, Flash Texas/Maverick Storage, Tivolli Storage Manager SW.\\}
+	\entry
+	{Jul 2011 -- Jun 2012}
+	{IT Support}
+	{RADEC SA de CV.}
+	{{} \\$\bullet$ Team Lead technical IT support (Level 2). 
+		\\$\bullet$ IT Network Support Level 2 infrastructure, based
+		on Linux distro and Windos Server OS, Active Directory, GPO, SAMBA, DHCP, Firewall, FTP,
+		NFS, HTTP servers.
+		\\$\bullet$ IT support Level 2, for Windows 7 and macOS Leopard user desktop.
+		\\$\bullet$ Preventive and corrective maintenance to IBM servers, PCs, notebook and macbook.\\$\bullet$ Installation and configuation of monitoring equipment (CCTV).\\}
+	\entry
+	{Jul 2009 -- Apr 2011}
+		{Technical Support Manager}
+	{Tec Smart SA. de CV. (Mr.Fix)}
+	{{}\\$\bullet$ Team Lead technical support Level 2.
+		\\$\bullet$ Installation, configuration and consulting of Windows and macoS OS, Microsoft Office, Antivirus and SW third party.
+		\\$\bullet$ Preventive and corrective maintenance PCs, notebook and macbook.
+		\\$\bullet$ Management of technical staff, preparation and presentation of inventory, sales, warranty and service reports for the 4 Mr. Fix Store in GDL. \\ \\}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}\\
+
+\begin{entrylist}
+	\entry
+		{2003 -- 2007}
+		{Bachelor's Degree}
+		{Computer Science Engineer}
+		{Universidad Tecnologica de Guadalajara-UTEG}
+\end{entrylist}
+
+\cvsect{SPECIALIZED TRAINING}\\
+
+\begin{entrylist}
+	\entry
+		{2019}
+		{Security Windows Server 2016}
+		{Executrain}
+		{}
+\end{entrylist}
+
+\begin{entrylist}
+	\entry
+	{2018}
+	{Red Hat System administration II}
+	{Executrain}
+	{}
+\end{entrylist}
+
+\begin{entrylist}
+	\entry
+	{2018}
+	{Identity with Windows Server 2016}
+	{Executrain}
+	{}
+\end{entrylist}
+
+
+\begin{entrylist}
+	\entry
+	{2018}
+	{Installation Storage and Compute Windows Server 2016}
+	{Executrain}
+	{}
+\end{entrylist}
+
+\begin{entrylist}
+	\entry
+	{2011}
+	{Gestion de LVM Linux OS}
+	{ALEUX}
+	{}
+\end{entrylist}
+
+
+%---------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.4\textwidth}	
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Languages}	
+
+	$\bullet$ {Spanish} - native\\
+	$\bullet$ {English} - B1 level - Studding currently\\
+
+
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Hobbies}
+
+		$\bullet$ Manga and Animation Japanese.\\
+		$\bullet$ Football Soccer.\\  
+		$\bullet$ Assemble lego figures with my kid.\\ 
+		$\bullet$ Player Videogames in my Playstation 4.
+
+\end{minipage}
+%\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
