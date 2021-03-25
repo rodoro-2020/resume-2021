@@ -124,7 +124,7 @@
 				Bradesco Bank of brasil, ADO de Oriente, Corporativo The Home Depot Mexico, Grupo GEPP, Toshiba, Grupo modelo, Lenovo, Manpower,
 				etc.
 				\\$\bullet$ Basic use of containerization tools (Podman and Docker).			
-				\\$\bullet$ GIT and Jenkis basic knowledge.
+				\\$\bullet$ GIT basic knowledge.
 				\\$\bullet$ Installation and Configuration IBM Power Systems (Power 7 and 8, HMC)\\$\bullet$ Configuration of Storage Systems DS3000 Family,V7000, Flash Texas/Maverick Storage, Tivolli Storage Manager SW.\\}
 	\entry
 	{Jul 2011 -- Jun 2012}
