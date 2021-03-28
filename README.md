@@ -9,5 +9,7 @@ Este documento esta en formato LATEX y el producto final es un PDF con mi ultima
 
 ###Github
 
+Se utiliza Githun para practicar con todas las herramientas o comandos y asi obtener mas experiencias. De la mano pues tengo mi archivo en proyecto git local y asi tendre modo de tener mi respaldo.
+
 
 
